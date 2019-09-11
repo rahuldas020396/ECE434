@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Rahul Das
 # ECE 434
 # Homework 1
@@ -7,6 +9,16 @@
 # Type in command prompt:
 # 	$host sudo apt install python3-pip
 #  	$host pip3 install pygame
+
+
+# Printing instructions
+
+print("\n----------Instructions----------\n")
+
+print("Movement: arrow keys \n")
+print("Switch colors: m \n")
+print("Reset game: spacebar \n")
+print("Quit Game: escape \n")
 
 #Importing pygame
 import pygame,sys
