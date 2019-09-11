@@ -3,6 +3,11 @@
 # Homework 1
 # Etch a sketch game
 
+# In order for this progem to run correctly, pygame needs to be installed
+# Type in command prompt:
+# 	$host sudo apt install python3-pip
+#  	$host pip3 install pygame
+
 #Importing pygame
 import pygame,sys
 from pygame.locals import *
