@@ -14,3 +14,11 @@
 		quit game = esc
 
 
+## Prof. Yoder's comments
+
+Please use correct README.md filename
+Nice etch.py.  Works on my host.
+Let's get pygame running on the bone.
+No post on main Google Group
+
+Grade:  10/10
