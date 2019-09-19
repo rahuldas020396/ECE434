@@ -56,3 +56,11 @@ Etch a Sketch
 
 I re-made etch a sketch with curses. I added the gpio buttons as inputs to the etch a sketch. 
 My etch a sketch also has a clear command that can be done by pressing all four buttons down at the same time
+
+
+## Prof. Yoder's comments
+
+Nicely presented data.  I'm suprised python is faster than C.
+Nice etch-a-sketch.
+
+Grade:  10/10
