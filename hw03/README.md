@@ -10,3 +10,9 @@ Files included:
 3. etchMatrix.py
 	This program interfaces with the rotary encoders and the 8x8 bicolor
 	LED marix. The etch a sketch can be played with the rotary encoders.
+
+## Prof. Yoder's comments
+
+Looks good.  Too bad you didn't get the alert pin figured out.
+
+Grade:  10/10
