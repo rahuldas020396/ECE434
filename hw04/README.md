@@ -50,3 +50,13 @@ technically recreate the etch-a-sketch game. By changing the number of pixels
 perpendicilar to the direction of motion, we could increase the thickness of the LCD
 and even make it user defined. We could also change the rgb values on the LCD and make
 it colorful. All this without pygame.
+
+## Prof. Yoder's comments
+
+Looks good.
+Take a look at frambuffer.c and etch-a-sketch.c in ~/exercises/displays/ili9341/fb.  They are
+examples of writing straight to the frambuffer.
+How fast can you toggle the LED?
+Pictures are missing.
+
+Grade:  9/10
