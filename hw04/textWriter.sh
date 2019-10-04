@@ -6,10 +6,10 @@ TMP_FILE=/tmp/frame.png
 # From: http://www.imagemagick.org/Usage/text/
 convert -background lightblue -fill blue -font Times-Roman -pointsize 24 \
      -size $SIZE \
-     label:'ImageMagick\nhw04\n' \
+     label:'ImageMagick\nExamples\n' \
      -draw "text 0,100 'Rahul'" \
      -draw "text 0,150 'has completed the'" \
-     -draw "text 0,200 'ECE434 grind'" \
+     -draw "text 0,150 'has completed the'" \
      $TMP_FILE
 
 sudo fbi -noverbose -T 1 $TMP_FILE
