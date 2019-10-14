@@ -5,7 +5,6 @@ From makefile exercise on linux page
 -c only assembles and combines. it does not link
 
 output from running helloWorld.c on the bone:
-debian@beaglebone:~$ ./a.out 
 Hello, World! Main is executing at 0x1040c
 This address (0xbece4b84) is in our stack frame
 This address (0x21030) is in our bss section
@@ -28,8 +27,32 @@ debian@beaglebone:/var/lib/cloud9/ECE434/hw05$ head -3 /boot/uEnv.txt
 
 uname_r=5.4.0-rc2-bone1
 
-When I follow the steps on Maloy's website and compile my LED.c (which is the toggle function),
-I get an error pointing me to the linux/ header files saything that they do not exist.
+-------------------------------------------------------------
+revisions
+-------------------------------------------------------------
+
+went back to kernal 4.14:
+    debian@beaglebone:/var/lib/cloud9/ECE434$ uname -a
+    Linux beaglebone 4.14.108-ti-r115 #1 SMP PREEMPT Mon Aug 26 01:42:24 UTC 2019 armv7l GNU/Linux
+
+The led toggle works now!
+Here is a snippet from dmesg:
+    [  +0.210604] GPIO_TEST: Interrupt! (button state is 0)
+    [  +0.143341] GPIO_TEST: Interrupt! (button state is 1)
+    [  +0.163158] GPIO_TEST: Interrupt! (button state is 0)
+    [  +0.130146] GPIO_TEST: Interrupt! (button state is 1)
+    [  +1.295746] GPIO_TEST: Interrupt! (button state is 0)
+    [  +0.105358] GPIO_TEST: Interrupt! (button state is 1)
+    [  +6.239852] GPIO_TEST: The button state is currently: 1
+    [  +0.000019] GPIO_TEST: The button was pressed 46 times
+    [  +0.015016] GPIO_TEST: Goodbye from the LKM!
+
+
+The hellp folder has been copied from exploringBB folder into the hw05 folder.
+The hello.c file make works perfectly Here is a snippet of the output from 
+inserting and removing hello.ko. I added my name to the name parameter:
+    [Oct14 19:52] EBB: Hello Rahul from the BBB LKM!
+    [ +22.209633] EBB: Goodbye Rahul from the BBB LKM!
 
 ## Prof. Yoder's comments
 

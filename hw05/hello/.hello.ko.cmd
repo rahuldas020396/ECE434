@@ -1,0 +1,1 @@
+cmd_/var/lib/cloud9/ECE434/hw05/hello/hello.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /var/lib/cloud9/ECE434/hw05/hello/hello.ko /var/lib/cloud9/ECE434/hw05/hello/hello.o /var/lib/cloud9/ECE434/hw05/hello/hello.mod.o ;  true
