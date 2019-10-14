@@ -30,3 +30,13 @@ uname_r=5.4.0-rc2-bone1
 
 When I follow the steps on Maloy's website and compile my LED.c (which is the toggle function),
 I get an error pointing me to the linux/ header files saything that they do not exist.
+
+## Prof. Yoder's comments
+
+If you cross compiled helloWorld.c it shouldn't run on your host.  Copy it to
+your bone and try it.
+Your kernel proof is good.  Better proof is the output of uname -a
+
+Looks like the kernel modules aren't done yet.
+
+Grade:  5/10
