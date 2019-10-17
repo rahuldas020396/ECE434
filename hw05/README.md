@@ -63,3 +63,11 @@ Your kernel proof is good.  Better proof is the output of uname -a
 Looks like the kernel modules aren't done yet.
 
 Grade:  5/10
+
+------
+update
+------
+Kernel modules are there.  Thanks....
+
+Late: -1
+Grade: 9/10
