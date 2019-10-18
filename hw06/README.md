@@ -34,6 +34,36 @@ Why can the External event in Figure 4 start sooner?
 The real time patch forces IRQ threads causing the low priority interupts to be cut out of the execution time.
 This reduces dispatch latency
 
+-------------------------------------
+Update
+-------------------------------------
+When I ran the time sudo ./hist.gen > nort.hist for the first time, I got:
+
+Real Time:
+
+With Load:
+real    1m44.878s
+user    0m1.882s
+sys     0m9.142s
+
+With no Load
+real    1m45.307s
+user    0m0.488s
+sys     0m4.256s
+
+Non Real Time
+
+With Load
+real    1m45.108s
+user    0m2.045s
+sys     0m9.396s
+
+With no Load
+real    1m44.761s
+user    0m1.077s
+sys     0m3.247s
+
+
 ## Prof. Yoder's comments
 Good start on the questions, though some answers are missing.  (-1)
 Looking forward to seeing the plots. (-5)
