@@ -69,3 +69,12 @@ Good start on the questions, though some answers are missing.  (-1)
 Looking forward to seeing the plots. (-5)
 
 Grade:  5/10
+
+## Prof. Yoder's new comments
+Plots are there!  The plot names seem odd since each plot has both RT and non-RT
+
+Late: -1
+
+Grade:  9/10
+
+Project Wiki is started  10/10
