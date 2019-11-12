@@ -10,7 +10,6 @@ Plot filename:
 --------------------
 The pin is toggling at 50.0MHz and is quite stable. It has a 
 standard deviation of 376kHz which is 0.75% deviation
-<<<<<<<<< saved version
 Plot filename:scope_1
 
 5.4 Controlling the PWM Frequency
@@ -34,4 +33,10 @@ Files included:
 
 =========
 Plot filename: scope_1
->>>>>>>>> local version
+
+## Prof. Yoder's comments
+
+Looks pretty good.  For part 5.9 you should be able to trigger off the input signal
+and see the output signal jittering some.
+Grade:  9/10
+
